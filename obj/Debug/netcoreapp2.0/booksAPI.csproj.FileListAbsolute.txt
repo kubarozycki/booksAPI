@@ -1,0 +1,11 @@
+C:\Users\jakub.rozycki\Repos\booksAPI\booksAPI\bin\Debug\netcoreapp2.0\booksAPI.deps.json
+C:\Users\jakub.rozycki\Repos\booksAPI\booksAPI\bin\Debug\netcoreapp2.0\booksAPI.runtimeconfig.json
+C:\Users\jakub.rozycki\Repos\booksAPI\booksAPI\bin\Debug\netcoreapp2.0\booksAPI.runtimeconfig.dev.json
+C:\Users\jakub.rozycki\Repos\booksAPI\booksAPI\bin\Debug\netcoreapp2.0\booksAPI.dll
+C:\Users\jakub.rozycki\Repos\booksAPI\booksAPI\bin\Debug\netcoreapp2.0\booksAPI.pdb
+C:\Users\jakub.rozycki\Repos\booksAPI\booksAPI\obj\Debug\netcoreapp2.0\booksAPI.csprojAssemblyReference.cache
+C:\Users\jakub.rozycki\Repos\booksAPI\booksAPI\obj\Debug\netcoreapp2.0\booksAPI.csproj.CoreCompileInputs.cache
+C:\Users\jakub.rozycki\Repos\booksAPI\booksAPI\obj\Debug\netcoreapp2.0\booksAPI.AssemblyInfoInputs.cache
+C:\Users\jakub.rozycki\Repos\booksAPI\booksAPI\obj\Debug\netcoreapp2.0\booksAPI.AssemblyInfo.cs
+C:\Users\jakub.rozycki\Repos\booksAPI\booksAPI\obj\Debug\netcoreapp2.0\booksAPI.dll
+C:\Users\jakub.rozycki\Repos\booksAPI\booksAPI\obj\Debug\netcoreapp2.0\booksAPI.pdb
