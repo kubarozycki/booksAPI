@@ -4,11 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using booksAPI.Models;
 using booksAPI.Repository;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace booksAPI.Controllers
 {
     [Route("api/[controller]")]
+    [EnableCors("All")]
     public class BooksController : Controller
     {
         private IBaseRepository<Book> repository;
@@ -18,6 +20,7 @@ namespace booksAPI.Controllers
         }
 
         [HttpGet]
+        
         public IEnumerable<Book> Get()
         {
             return this.repository.Get();

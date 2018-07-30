@@ -24,6 +24,11 @@ namespace booksAPI {
 
         public void ConfigureServices (IServiceCollection services) {
             services.AddMvc ();
+            services.AddCors (o => o.AddPolicy ("All", builder => {
+                builder.AllowAnyOrigin ()
+                    .AllowAnyMethod ()
+                    .AllowAnyHeader ();
+            }));
 
             services.AddTransient<IBaseRepository<Book>> ((provider) => {
                 return new BaseRepository<Book> (booksUrl);
@@ -42,6 +47,7 @@ namespace booksAPI {
             }
 
             app.UseMvc ();
+
         }
     }
 }
