@@ -4,11 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using booksAPI.Models;
 using booksAPI.Repository;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace booksAPI.Controllers
 {
     [Route("api/[controller]")]
+    [EnableCors("All")]
     public class AuthorsController : Controller
     {
         private IBaseRepository<Author> repository;
